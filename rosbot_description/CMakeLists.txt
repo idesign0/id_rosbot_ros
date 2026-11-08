@@ -24,4 +24,5 @@ if(BUILD_TESTING)
 endif()
 
 ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/setup_envs.sh.in")
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/setup_envs.dsv.in")
 ament_package()
